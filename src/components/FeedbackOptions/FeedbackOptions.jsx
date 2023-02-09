@@ -1,3 +1,4 @@
+// import PropTypes from 'prop-types';
 import {
   Button,
   ListButton,
@@ -20,3 +21,5 @@ export const FeedbackOptions = ({ good, neutral, bad }) => {
     </div>
   );
 };
+
+// FeedbackOptions.propTypes = {};
