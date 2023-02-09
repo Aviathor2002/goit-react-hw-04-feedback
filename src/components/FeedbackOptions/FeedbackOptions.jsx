@@ -1,4 +1,7 @@
-import { Button, ListButton } from 'components/Statistic/Statistics.style';
+import {
+  Button,
+  ListButton,
+} from 'components/FeedbackOptions/FeedbackOptions.style';
 
 export const FeedbackOptions = ({ good, neutral, bad }) => {
   return (
