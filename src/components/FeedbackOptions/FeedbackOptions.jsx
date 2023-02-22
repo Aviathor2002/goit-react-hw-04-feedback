@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import {
   Button,
   ListButton,
@@ -19,4 +20,10 @@ export const FeedbackOptions = ({ good, neutral, bad }) => {
       </ListButton>
     </div>
   );
+};
+
+FeedbackOptions.propTypes = {
+  good: PropTypes.func.isRequired,
+  neutral: PropTypes.func.isRequired,
+  bad: PropTypes.func.isRequired,
 };
